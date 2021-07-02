@@ -174,12 +174,20 @@
                 android:background="?attr/colorOutline"/>
 
         <androidx.appcompat.widget.Toolbar
-                android:id="@+id/bottom_toolbar"
+                android:id="@+id/bottom_markdown_toolbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 app:contentInsetStart="0dp"
-                app:menu="@menu/editor_bottom"/>
+                app:menu="@menu/markdown_editor_bottom"/>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/bottom_outline_toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:contentInsetStart="0dp"
+            app:menu="@menu/outline_editor_bottom"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
